@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bg-secondary">
 
     <header class="py-4">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-gradient style fixed-top">
@@ -21,22 +21,43 @@
                 <a class="navbar-brand text-uppercase fw-bold" href="#">
                     <span class="bg-warning bg-gradient p-1 rounded-3 text-light">Gaëlle</span> Boucher
                 </a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <ul class="align-baseline text-center mb-0">
+                        <li class="list-inline-item">
+                            <a class="text-decoration-none text-white" href="https://github.com/GaelleB" data-bs-toggle="tooltip" title="GitHub">
+                                <i class="bi bi-github fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-decoration-none text-white" href="https://www.linkedin.com/in/gaëlle-boucher-34659b207/" data-bs-toggle="tooltip" title="LinkedIn">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-decoration-none text-white" href="mailto:gaelleboucher.dev@gmail.com" data-bs-toggle="tooltip" title="Adresse mail">
+                                <i class="far fa-envelope fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">À propos</a>
+                            <a class="nav-link text-warning" href="#about">À propos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#skills">Compétences</a>
+                            <a class="nav-link text-warning" href="#skills">Compétences</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projets</a>
+                            <a class="nav-link text-warning" href="#projects">Projets</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
+                            <a class="nav-link text-warning" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +71,7 @@
         <section id="intro" class="my-5">
             <div class="container">
                 <div class="col-12 col-md-6 position-relative w-auto">
-                    <img src="./img/background.jpg" alt="Image arrière plan" class=" col-12">
+                    <img class="col-12" src="./img/background.jpg" alt="Image arrière plan">
                 </div>
                 <div class="row gy-4">
                     <div class="col-12 col-md-6 me-5 position-relative w-auto start-50 text-center translate-middle-x">
@@ -62,7 +83,7 @@
         </section>
 
         <!-- À propos -->
-        <section id="about" class="py-5 bg-light">
+        <section id="about" class="py-5">
             <div class="container">
                 <h2 class="fw-bold">À propos</h2>
                 <div class="row gy-4 align-items-center">
@@ -77,35 +98,35 @@
         <section id="skills" class="my-5">
             <div class="container">
                 <h2 class="fw-bold">Compétences</h2>
-                <div class="row gy-4 align-items-baseline">
+                <div class="row my-5">
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <h3 class="my-5">Frontend</h3>
-                        <img src="./img/skills/html5.png" alt="image html">
-                        <img src="./img/skills/css3.png" alt="image css">
-                        <img src="./img/skills/sass.png" alt="image sass">
-                        <img src="./img/skills/seo.png" alt="image seo">
-                        <img src="./img/skills/javascript.png" alt="image javascript">
-                        <img src="./img/skills/vuejs.png" alt="image vuejs">
-                        <img src="./img/skills/bootstrap.png" alt="image bootstrap">
+                        <img src="./img/skills/html5.png" alt="image html" class="mx-1">
+                        <img src="./img/skills/css3.png" alt="image css" class="mx-1">
+                        <img src="./img/skills/sass.png" alt="image sass" class="mx-1">
+                        <img src="./img/skills/seo.png" alt="image seo" class="mx-2">
+                        <img src="./img/skills/javascript.png" alt="image javascript" class="my-3 mx-1">
+                        <img src="./img/skills/vuejs.png" alt="image vuejs" class="mx-1">
+                        <img src="./img/skills/bootstrap.png" alt="image bootstrap" class="mx-1">
                     </div>     
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 px-3">
                         <h3 class="my-5">Backend</h3>
-                        <img src="./img/skills/node-js.png" alt="image node-js">
-                        <img src="./img/skills/mongodb.png" alt="image mongodb">
+                        <img src="./img/skills/node-js.png" alt="image node-js" class="mx-1">
+                        <img src="./img/skills/mongodb.png" alt="image mongodb" class="mx-2">
                         <img src="./img/skills/mysql.png" alt="image mysql">
                     </div> 
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-5">
                         <h3 class="my-5">Environnement</h3>
-                        <img src="./img/skills/visual-studio-code.png" alt="image vscode">
-                        <img src="./img/skills/git.png" alt="image git">
+                        <img src="./img/skills/visual-studio-code.png" alt="image vscode" class="mx-2">
+                        <img src="./img/skills/git.png" alt="image git" class="mx-2">
                         <img src="./img/skills/github.png" alt="image github">
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="">
+                        <div class="text-center">
                             <img src="./img/skills/Gaëlle BOUCHER.png" title="CV Gaëlle Boucher" alt="CV Gaëlle Boucher" width="100%">
                         </div>
-                        <div>
-                            <a href="./img/skills/Gaëlle BOUCHER.pdf" download="">Télécharger CV</a>
+                        <div class="text-center m-5">
+                            <a class="text-dark fw-bold fs-3" href="./img/skills/Gaëlle BOUCHER.pdf" download="">Télécharger CV</a>
                         </div>
                     </div> 
                 </div> 
@@ -113,87 +134,98 @@
         </section>
 
         <!-- Projets -->
-        <section id="projects" class="py-5 bg-light">
+        <section id="projects" class="py-5">
             <div class="container">
                 <h2 class="mb-0 fw-bold">Mes projets</h2>
                 <div class="row gy-4 gx-gy-md-0 mt-4">
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark">
+                        <div class="card text-bg-dark w-100 h-100">
                             <img src="./img/projets/Reservia.jpg" class="card-img-top" alt="image reservia">
                             <div class="card-body">
                                 <h5 class="card-title">Reservia </h5>
-                                <p class="card-text">Transformation d'une maquette en site web avec HTML & CSS</p>
-                                <a href="https://github.com/GaelleB/GaelleBoucher_2_06052021.git" class="btn btn-warning">Code</a>
-                                <a href="https://gaelleb.github.io/GaelleBoucher_2_06052021/" class="btn btn-warning">Lien du site</a>
+                                <h6 class="card-text">Transformation d'une maquette en site web avec HTML & CSS</h6>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_2_06052021.git" role="button">Code</a>
+                                    <a class="btn btn-outline-warning" href="https://gaelleb.github.io/GaelleBoucher_2_06052021/" role="button">Lien</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark">
+                        <div class="card text-bg-dark w-100 h-100">
                             <img src="./img/projets/ohmyfood.jpg" class="card-img-top" alt="image ohmyfood">
                             <div class="card-body">
                                 <h5 class="card-title">Ohmyfood</h5>
                                 <p class="card-text">Création d'un site web avec des animations CSS</p>
-                                <a href="https://github.com/GaelleB/GaelleBoucher_2_06052021.git" class="btn btn-warning">Code</a>
-                                <a href="https://gaelleb.github.io/GaelleBoucher_3_25072021/" class="btn btn-warning">Lien GitHub</a>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_3_25072021" role="button">Code</a>
+                                    <a class="btn btn-outline-warning" href="https://gaelleb.github.io/GaelleBoucher_3_25072021/" role="button">Lien</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark">
+                        <div class="card text-bg-dark w-100 h-100">
                             <img src="./img/projets/La chouette agence.jpg" class="card-img-top" alt="image la chouette agence">
                             <div class="card-body">
                                 <h5 class="card-title">La chouette agence</h5>
                                 <p class="card-text">Optimisation du référencement d'un site</p>
-                                <a href="https://github.com/GaelleB/GaelleBoucher_2_06052021.git" class="btn btn-warning">Code</a>
-                                <a href="https://gaelleb.github.io/GaelleBoucher_4_31082021/" class="btn btn-warning">Lien GitHub</a>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_4_31082021" role="button">Code</a>
+                                    <a class="btn btn-outline-warning" href="https://gaelleb.github.io/GaelleBoucher_4_31082021/" role="button">Lien</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark">
+                        <div class="card text-bg-dark w-100 h-100">
                             <img src="./img/projets/Kanap.jpg" class="card-img-top" alt="image kanap">
                             <div class="card-body">
                                 <h5 class="card-title">Kanap</h5>
                                 <p class="card-text">Construction d'un site e-commerce en JavaScript</p>
-                                <a href="https://github.com/GaelleB/GaelleBoucher_2_06052021.git" class="btn btn-warning">Code</a>
-                                <a href="https://github.com/GaelleB/GaelleBoucher_5_21102021/tree/dev" class="btn btn-warning">Lien GitHub</a>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_5_21102021/tree/dev" role="button">Code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark">
+                        <div class="card text-bg-dark w-100 h-100">
                             <img src="./img/projets/Piiquante.jpg" class="card-img-top" alt="image piiquante">
                             <div class="card-body">
                                 <h5 class="card-title">Piiquante</h5>
                                 <p class="card-text">Construction d'une API sécurisée pour une application d'avis gastronomiques</p>
-                                <a href="https://github.com/GaelleB/GaelleBoucher_2_06052021.git" class="btn btn-warning">Code</a>
-                                <a href="https://github.com/GaelleB/GaelleBoucher_6_01022022" class="btn btn-warning">Lien GitHub</a>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_6_01022022" role="button">Code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark">
+                        <div class="card text-bg-dark w-100 h-100">
                             <img src="./img/projets/Groupomania.jpg" class="card-img-top" alt="image groupomania">
                             <div class="card-body">
                                 <h5 class="card-title">Groupomania</h5>
                                 <p class="card-text">Création d'un réseau social d'entreprise</p>
-                                <a href="https://github.com/GaelleB/GaelleBoucher_2_06052021.git" class="btn btn-warning">Code</a>
-                                <a href="https://github.com/GaelleB/GaelleBoucher_7_05032022" class="btn btn-warning">Lien GitHub</a>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_7_05032022" role="button">Code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark">
+                        <div class="card text-bg-dark w-100 h-100">
                             <img src="./img/projets/portfolio.jpg" class="card-img-top" alt="image portfolio">
                             <div class="card-body">
                                 <h5 class="card-title">Mon portfolio</h5>
                                 <p class="card-text">Projet personnel <br>Bootstrap</p>
-                                <a href="https://github.com/GaelleB/GaelleBoucher_2_06052021.git" class="btn btn-warning">Code</a>
-                                <a href="#" class="btn btn-warning">Lien GitHub</a>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                                    <a class="btn btn-outline-warning" href="https://github.com/GaelleB/Portfolio" role="button">Code</a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -233,97 +265,6 @@
             </div>
         </section>
     </main>
-
-    <!-- Footer -->
-    <footer class="border-top">
-        <div class="container py-5">
-            <div class="row gy-4 align-items-center">
-                <div class="col-12 col-md-4 text-md-center">
-                    <ul class="list-inline mb-0">
-                        <li class="list-inline-item">
-                            <a href="https://github.com/GaelleB" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="GitHub">
-                                <i class="bi bi-github"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/gaëlle-boucher-34659b207/" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="LinkedIn">
-                                <i class="fab fa-linkedin fa-x"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="mailto:gaelleboucher.dev@gmail.com" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Adresse mail">
-                                <i class="far fa-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-12 col-md-4">
-                    <a class="navbar-brand text-dark text-uppercase fw-bold" href="#"></a>
-                </div>
-                <div class="col-12 col-md-4 text-md-end">
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#mentionsLegales">Mentions légales</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="mentionsLegales" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Mentions Légales</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus leo, volutpat vitae
-                            mi
-                            ultrices,
-                            sollicitudin
-                            blandit dui. Mauris ultricies iaculis leo id consequat. Class aptent taciti sociosqu ad
-                            litora
-                            torquent
-                            per conubia
-                            nostra, per inceptos himenaeos. Sed posuere risus viverra ornare porttitor. Nullam egestas
-                            nec
-                            libero eget
-                            sagittis.
-                            Phasellus vulputate ante a vulputate vehicula. Suspendisse nec dolor ante.
-                        </p>
-                        <p>
-                            Nunc auctor semper turpis. Duis quam velit, aliquam ut mi vel, sollicitudin dapibus erat.
-                            Etiam
-                            vitae
-                            malesuada urna.
-                            Vestibulum scelerisque lacus at molestie cursus. Donec placerat enim id enim feugiat
-                            gravida.
-                            Integer ut
-                            maximus libero.
-                            Nulla faucibus dolor vitae varius rutrum. Nunc neque sem, convallis id lorem quis, vulputate
-                            imperdiet
-                            eros. Donec
-                            viverra commodo congue.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-                crossorigin="anonymous">
-                </script>
-        <script>
-            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-                return new bootstrap.Tooltip(tooltipTriggerEl)
-            })
-        </script>
-    </footer>
 </body>
 
 </html>
