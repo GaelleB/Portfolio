@@ -16,25 +16,25 @@
 <body class="bg-secondary">
 
     <header class="p-5">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-gradient fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark bg-gradient fixed-top ">
             <div class="container">
                 <a class="navbar-brand text-uppercase fw-bold" href="index.html">
                     <span class="bg-warning bg-gradient p-1 rounded-3 text-light">Gaëlle</span> Boucher
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                        <ul>
+                    <div class="col-xs-12 col-sm-8 col-md-3 col-lg-3 mb-2">
+                        <ul class="list-inline me-4">
                             <li class="list-inline-item">
                                 <a class="text-decoration-none text-white" href="https://github.com/GaelleB" data-bs-toggle="tooltip" title="GitHub">
-                                    <i class="bi bi-github fa-1x"></i>
+                                    <i class="bi bi-github fa fs-3"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a class="text-decoration-none text-white" href="https://www.linkedin.com/in/gaëlle-boucher-34659b207/" data-bs-toggle="tooltip" title="LinkedIn">
-                                    <i class="fab fa-linkedin fa-1x"></i>
+                                    <i class="fab fa-linkedin fa fs-3"></i>
                                 </a>
                             </li>
                             <li class="list-inline-item">
                                 <a class="text-decoration-none text-white" href="mailto:gaelleboucher.dev@gmail.com" data-bs-toggle="tooltip" title="Adresse mail">
-                                    <i class="far fa-envelope fa-1x"></i>
+                                    <i class="far fa-envelope fa fs-3"></i>
                                 </a>
                             </li>
                         </ul>
@@ -43,7 +43,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end align-baseline" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link text-warning" href="#about">À propos</a>
@@ -71,10 +71,10 @@
                 <div class="col-12 col-md-6 position-relative w-auto">
                     <img class="col-12" src="./img/background.jpg" alt="Image arrière plan">
                 </div>
-                <div class="row gy-4">
+                <div class="row gy-4 gy-md-0 mt-4">
                     <div class="col-12 col-md-6 me-5 position-relative w-auto start-50 text-center translate-middle-x">
-                        <h2 class="text-warning">Développeuse Web</h2>
-                        <h3 class="fs-1 text-warning">Bienvenue sur mon portfolio</h3>
+                        <h2 class="fw-bold text-warning text-center text-uppercase">Développeuse Web</h2>
+                        <h3 class="fw-bold text-warning text-center">Bienvenue sur mon portfolio</h3>
                     </div>
                 </div>
             </div>
@@ -83,8 +83,8 @@
         <!-- À propos -->
         <section id="about" class="py-5">
             <div class="container">
-                <h2 class="fw-bold">À propos</h2>
-                <div class="row gy-4 align-items-center">
+                <h2 class="fw-bold text-black text-center text-uppercase fs-1">À propos</h2>
+                <div class="row gy-4 gy-md-0 mt-4">
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <p></p>
                     </div>
@@ -93,55 +93,62 @@
         </section>
 
         <!-- Mes compétences -->
-        <section id="skills" class="my-5">
+        <section id="skills" class="py-5">
             <div class="container">
-                <h2 class="fw-bold">Compétences</h2>
-                <div class="row my-5">
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <h3 class="my-5">Frontend</h3>
-                        <img src="./img/skills/html5.png" alt="image html" class="mx-1">
-                        <img src="./img/skills/css3.png" alt="image css" class="mx-1">
-                        <img src="./img/skills/sass.png" alt="image sass" class="mx-1">
-                        <img src="./img/skills/seo.png" alt="image seo" class="mx-2">
-                        <img src="./img/skills/javascript.png" alt="image javascript" class="my-3 mx-1">
-                        <img src="./img/skills/vuejs.png" alt="image vuejs" class="mx-1">
-                        <img src="./img/skills/bootstrap.png" alt="image bootstrap" class="mx-1">
-                    </div>     
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 px-3">
-                        <h3 class="my-5">Backend</h3>
-                        <img src="./img/skills/node-js.png" alt="image node-js" class="mx-1">
-                        <img src="./img/skills/mongodb.png" alt="image mongodb" class="mx-2">
-                        <img src="./img/skills/mysql.png" alt="image mysql">
-                    </div> 
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-5">
-                        <h3 class="my-5">Environnement</h3>
-                        <img src="./img/skills/visual-studio-code.png" alt="image vscode" class="mx-2">
-                        <img src="./img/skills/git.png" alt="image git" class="mx-2">
-                        <img src="./img/skills/github.png" alt="image github">
+                <h2 class="fw-bold text-black text-center text-uppercase fs-1">Compétences</h2>
+                <div class="row gy-4 gy-md-0">
+                    <div class="col-12 col-md-6">
+                        <div class="text-center bg-gradient border border-1 rounded-5 mt-5 mb-2 pb-3">
+                            <h3 class="my-3 text-black">Frontend</h3>
+                            <img src="./img/skills/html5.png" alt="image html" class="mx-1">
+                            <img src="./img/skills/css3.png" alt="image css" class="mx-1">
+                            <img src="./img/skills/sass.png" alt="image sass" class="mx-1">
+                            <img src="./img/skills/seo.png" alt="image seo" class="mx-2">
+                            <img src="./img/skills/javascript.png" alt="image javascript" class="my-3 mx-1">
+                            <img src="./img/skills/vuejs.png" alt="image vuejs" class="mx-1">
+                            <img src="./img/skills/bootstrap.png" alt="image bootstrap" class="mx-1">
+                        </div>     
+                        <div class="text-center bg-gradient border border-1 rounded-5 mb-2 pb-3">
+                            <h3 class="my-3 text-black">Backend</h3>
+                            <img src="./img/skills/node-js.png" alt="image node-js" class="mx-1">
+                            <img src="./img/skills/mongodb.png" alt="image mongodb" class="mx-2">
+                            <img src="./img/skills/mysql.png" alt="image mysql">
+                        </div> 
+                        <div class="text-center bg-gradient align-content-around border border-1 rounded-5 pb-3">
+                            <h3 class="my-3 text-black">Environnement</h3>
+                            <img src="./img/skills/visual-studio-code.png" alt="image vscode" class="mx-2">
+                            <img src="./img/skills/git.png" alt="image git" class="mx-2">
+                            <img src="./img/skills/github.png" alt="image github">
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="text-center">
-                            <img src="./img/skills/Gaëlle BOUCHER.png" title="CV Gaëlle Boucher" alt="CV Gaëlle Boucher" width="100%">
+                    <div class="col-12 col-md-6">
+                        <div class="text-center mt-5">
+                            <img class="align-items-center" src="./img/skills/Gaëlle BOUCHER.png" title="CV Gaëlle Boucher" alt="CV Gaëlle Boucher" width="50%">
                         </div>
-                        <div class="text-center m-5">
-                            <a class="text-dark fw-bold fs-3" href="./img/skills/Gaëlle BOUCHER.pdf" download="">Télécharger CV</a>
+                        <div class="text-center m-1">
+                            <a class="text-black fw-bold fs-3" href="./img/skills/Gaëlle BOUCHER.pdf" download="">Télécharger CV</a>
                         </div>
-                    </div> 
-                </div> 
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Projets -->
         <section id="projects" class="py-5">
             <div class="container">
-                <h2 class="mb-0 fw-bold">Mes projets</h2>
-                <div class="row gy-4 gx-gy-md-0 mt-4">
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark w-100 h-100">
+                <h2 class="fw-bold text-black text-center text-uppercase fs-1">Mes projets</h2>
+                <div class="row gy-4 gy-md-0 mt-4">
+                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 mb-3">
+                        <div class="card text-bg-dark w-100 h-100 border border-1 border-white rounded-3">
                             <img src="./img/projets/Reservia.jpg" class="card-img-top" alt="image reservia">
                             <div class="card-body">
-                                <h5 class="card-title">Reservia </h5>
-                                <h6 class="card-text">Transformation d'une maquette en site web avec HTML & CSS</h6>
+                                <h3 class="card-title text-center text-warning fw-bold">Reservia </h3>
+                                <p class="card-text text-center">Transformation d'une maquette en site web avec HTML & CSS</p>
+                                <p>Techno utilisées</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">HTML</li>
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">CSS</li>
+                                </ul>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                                     <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_2_06052021.git" role="button">Code</a>
                                     <a class="btn btn-outline-warning" href="https://gaelleb.github.io/GaelleBoucher_2_06052021/" role="button">Lien</a>
@@ -149,12 +156,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark w-100 h-100">
+                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 mb-3">
+                        <div class="card text-bg-dark w-100 h-100 border border-1 border-white rounded-3">
                             <img src="./img/projets/ohmyfood.jpg" class="card-img-top" alt="image ohmyfood">
                             <div class="card-body">
-                                <h5 class="card-title">Ohmyfood</h5>
-                                <p class="card-text">Création d'un site web avec des animations CSS</p>
+                                <h3 class="card-title text-center text-warning fw-bold">Ohmyfood</h3>
+                                <p class="card-text text-center">Création d'un site web avec des animations CSS</p><br>
+                                <p>Techno utilisées</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">CSS</li>
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">SASS</li>
+                                </ul>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                                     <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_3_25072021" role="button">Code</a>
                                     <a class="btn btn-outline-warning" href="https://gaelleb.github.io/GaelleBoucher_3_25072021/" role="button">Lien</a>
@@ -162,12 +174,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark w-100 h-100">
+                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 mb-3">
+                        <div class="card text-bg-dark w-100 h-100 border border-1 border-white rounded-3">
                             <img src="./img/projets/La chouette agence.jpg" class="card-img-top" alt="image la chouette agence">
                             <div class="card-body">
-                                <h5 class="card-title">La chouette agence</h5>
-                                <p class="card-text">Optimisation du référencement d'un site</p>
+                                <h3 class="card-title text-center text-warning fw-bold">La chouette agence</h3>
+                                <p class="card-text text-center">Optimisation du référencement d'un site</p><br>
+                                <p>Techno utilisées</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">Accessibilité</li>
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">SEO</li>
+                                </ul>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                                     <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_4_31082021" role="button">Code</a>
                                     <a class="btn btn-outline-warning" href="https://gaelleb.github.io/GaelleBoucher_4_31082021/" role="button">Lien</a>
@@ -175,48 +192,68 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark w-100 h-100">
+                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 mb-3">
+                        <div class="card text-bg-dark w-100 h-100 border border-1 border-white rounded-3">
                             <img src="./img/projets/Kanap.jpg" class="card-img-top" alt="image kanap">
                             <div class="card-body">
-                                <h5 class="card-title">Kanap</h5>
-                                <p class="card-text">Construction d'un site e-commerce en JavaScript</p>
+                                <h3 class="card-title text-center text-warning fw-bold">Kanap</h3>
+                                <p class="card-text text-center">Construction d'un site e-commerce en JavaScript</p><br>
+                                <p>Techno utilisées</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">JavaScript</li>
+                                </ul>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                                     <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_5_21102021/tree/dev" role="button">Code</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark w-100 h-100">
+                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 mb-3">
+                        <div class="card text-bg-dark w-100 h-100 border border-1 border-white rounded-3">
                             <img src="./img/projets/Piiquante.jpg" class="card-img-top" alt="image piiquante">
                             <div class="card-body">
-                                <h5 class="card-title">Piiquante</h5>
-                                <p class="card-text">Construction d'une API sécurisée pour une application d'avis gastronomiques</p>
+                                <h3 class="card-title text-center text-warning fw-bold">Piiquante</h3>
+                                <p class="card-text text-center">Construction d'une API sécurisée pour une application d'avis gastronomiques</p>
+                                <p>Techno utilisées</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light mb-1">Node.js</li>
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">Express</li>
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">MongoDB</li>
+                                </ul>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                                     <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_6_01022022" role="button">Code</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark w-100 h-100">
+                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 mb-3">
+                        <div class="card text-bg-dark w-100 h-100 border border-1 border-white rounded-3">
                             <img src="./img/projets/Groupomania.jpg" class="card-img-top" alt="image groupomania">
                             <div class="card-body">
-                                <h5 class="card-title">Groupomania</h5>
-                                <p class="card-text">Création d'un réseau social d'entreprise</p>
+                                <h3 class="card-title text-center text-warning fw-bold">Groupomania</h3>
+                                <p class="card-text text-center">Création d'un réseau social d'entreprise</p><br>
+                                <p>Techno utilisées</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light mb-1">Node.js</li>
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">MySQL</li>
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">Vue.js</li>
+                                </ul>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                                     <a class="btn btn-outline-warning" href="https://github.com/GaelleB/GaelleBoucher_7_05032022" role="button">Code</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="card text-bg-dark w-100 h-100">
+                    <div class="col-xs-12 col-sm-8 col-md-6 col-lg-4 mb-3">
+                        <div class="card text-bg-dark w-100 h-100 border border-1 border-white rounded-3">
                             <img src="./img/projets/portfolio.jpg" class="card-img-top" alt="image portfolio">
                             <div class="card-body">
-                                <h5 class="card-title">Mon portfolio</h5>
-                                <p class="card-text">Projet personnel <br>Bootstrap</p>
+                                <h3 class="card-title text-center text-warning fw-bold">Mon portfolio</h3>
+                                <p class="card-text text-center">Projet personnel</p><br>
+                                <p>Techno utilisées</p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item border border-3 border-secondary p-1 rounded-5 text-bg-light">Bootstrap</li>
+                                </ul>
                                 <div class="d-grid gap-2 d-md-flex justify-content-md-center">
                                     <a class="btn btn-outline-warning" href="https://github.com/GaelleB/Portfolio" role="button">Code</a>
                                 </div>
@@ -231,30 +268,30 @@
         <!-- Contact -->
         <section id="contact" class="py-5">
             <div class="container">
-                <h2 class="mb-0 fw-bold">Me contacter</h2>
-                <div class="row gy-4 mt-4">
-                    <div class="col-12 col-md-5 py-3">
+                <h2 class="fw-bold text-black text-center text-uppercase fs-1">Me contacter</h2>
+                <div class="row gy-4 mt-5">
+                    <div class="col-12 col-md-5 mt-4">
                         <img src="./img/contact.png" alt="" width="100%">
                     </div>
-                    <div class="col-12 offset-md-1 col-md-6">
+                    <div class="col-12 offset-md-1 col-md-6 mt-2">
                         <form class="row">
-                            <div class="col-6 my-2">
+                            <div class="col-6 my-2 text-black">
                                 <label for="firstname" class="form-label">Prénom</label>
                                 <input name="firstname" type="text" class="form-control" id="firstname">
                             </div>
-                            <div class="col-6 my-2">
+                            <div class="col-6 my-2 text-black">
                                 <label for="name" class="form-label">Nom</label>
                                 <input name="name" type="text" class="form-control" id="name">
                             </div>
-                            <div class="col-12 my-2">
+                            <div class="col-12 my-2 text-black">
                                 <label for="email" class="form-label">Email</label>
                                 <input name="email" type="email" class="form-control" id="email">
                             </div>
-                            <div class="col-12 my-2">
+                            <div class="col-12 my-2 text-black">
                                 <label for="message" class="form-label">Message</label>
                                 <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                             </div>
-                            <div class="col-12 my-2">
+                            <div class="col-12 my-2 text-black">
                                 <button type="submit" class="btn btn-warning w-100">Envoyer</button>
                             </div>
                         </form>
