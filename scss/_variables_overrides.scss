@@ -1,13 +1,12 @@
-// scss-docs-start color-variables
-$teal: #3a6186 !default;
-$cyan: #89253e !default;
+// // scss-docs-start color-variables
+// $blue:#0d6efd !default;
+// $red: #dc3545 !default;
+// // scss-docs-start theme-color-variables
+// $warning: $blue;
+// $secondary: $red;
 
-// scss-docs-start theme-color-variables
-$warning: $teal;
-$secondary: $cyan;
+// // Quickly modify global styling by enabling or disabling optional features.
+// $enable-rounded: false !default;
+// $enable-shadows: true !default;
 
-// Quickly modify global styling by enabling or disabling optional features.
-$enable-rounded: false !default;
-$enable-shadows: true !default;
-
-$zindex-offcanvas: 1051;
+// $zindex-offcanvas: 1051;
